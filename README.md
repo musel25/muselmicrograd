@@ -7,7 +7,7 @@ This was done by Andrej Karpathy, this is my recreation with some minor modifica
 ### Installation
 
 ```bash
-pip install micrograd-musel
+pip install -i https://test.pypi.org/simple/ muselmicrograd
 ```
 
 ### Example usage
