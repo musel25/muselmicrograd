@@ -2,7 +2,7 @@
 # micrograd_musel
 
 A tiny Autograd engine with a DAG that only operates over scalar values.
-This was done by Andrej Karpathy, this is my recreation with some minor modifications to try it out. 
+This was done by Andrej Karpathy, this is my recreation with some minor modifications to try it out. hanks to Andrej for his contribution! 
 
 ### Installation
 
@@ -15,7 +15,7 @@ pip install -i https://test.pypi.org/simple/ muselmicrograd
 Below is a slightly contrived example showing a number of possible supported operations:
 
 ```python
-from micrograd.engine import Value
+from muselmicrograd.engine import Value
 
 a = Value(-4.0)
 b = Value(2.0)
